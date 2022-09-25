@@ -16,3 +16,7 @@ R_l = 3;
 R_t =9;
 V_ref = 3.3;
 
+%Sinal de Controle 
+Kv = K;
+pt_op = 0.5;
+u = (K*pt_op)/R;
